@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Saeful Rizki DS">
+<meta property="og:description" content="Portofolio desain grafis: 200+ template terjual di VistaCreate, motion graphic Adobe Stock, identitas brand, dan website.">
+<meta property="og:image" content="og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='6' y='6' width='22' height='22' fill='%230D0D12'/%3E%3Crect x='3' y='3' width='22' height='22' fill='%23E6007E'/%3E%3C/svg%3E">
+<style>
+  html { color-scheme: light dark; }
+  :root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  body { margin: 0; }
+  [hidden] { display: none !important; }
+</style><title>Saeful Rizki DS</title>
+<meta name="description" content="Portofolio desain grafis Saeful Rizki DS: template media sosial, poster, identitas brand, dan website.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: neo-brutalist "meja produksi" — garis tegas 2px, sudut tajam, bayangan keras;
+   setiap karya dipasang di mockup aslinya (feed IG, ponsel, bingkai poster, browser). */
+:root {
+  --bg: #ECEEF1;
+  --sheet: #FFFFFF;
+  --ink: #0D0D12;
+  --ink-2: #4A4C57;
+  --rule: #0D0D12;
+  --hard: #0D0D12;
+  --magenta: #E6007E;
+  --yellow: #FFE500;
+  --cyan: #00A0E3;
+  --on-magenta: #FFFFFF;
+  --grid: rgba(13,13,18,.06);
+  --wall: #DADDE2;
+  --f-display: "Archivo", "Arial Black", system-ui, sans-serif;
+  --f-body: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  --max: 1280px;
+  --gut-l: max(16px, env(safe-area-inset-left, 0px));
+  --gut-r: max(16px, env(safe-area-inset-right, 0px));
+  --b: 2px solid var(--rule);
+  --shadow: 6px 6px 0 var(--hard);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0F1015; --sheet: #191A22; --ink: #F1F1F4; --ink-2: #A9ABB8; --rule: #F1F1F4; --hard: #E6007E;
+    --magenta: #FF3D9F; --yellow: #FFE94D; --cyan: #3CC4F5; --on-magenta: #0F1015; --grid: rgba(241,241,244,.05); --wall: #22232D;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0F1015; --sheet: #191A22; --ink: #F1F1F4; --ink-2: #A9ABB8; --rule: #F1F1F4; --hard: #E6007E;
+  --magenta: #FF3D9F; --yellow: #FFE94D; --cyan: #3CC4F5; --on-magenta: #0F1015; --grid: rgba(241,241,244,.05); --wall: #22232D;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background-color: var(--bg);
+  background-image: linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: calc(100% / 12) 100%;
+  color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
+a { color: inherit; }
+img { display: block; max-width: 100%; height: auto; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--magenta); outline-offset: 3px; }
+.wrap { max-width: var(--max); margin: 0 auto; padding-left: var(--gut-l); padding-right: var(--gut-r); }
+.mono { font-family: var(--f-mono); font-size: 12px; letter-spacing: .02em; }
+.tag { display: inline-block; font-family: var(--f-mono); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; background: var(--ink); color: var(--bg); padding: 4px 8px; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; line-height: .98; }
+h2 { font-size: clamp(36px, 6vw, 76px); font-weight: 900; font-variation-settings: "wdth" 125; letter-spacing: -.02em; text-transform: uppercase; }
+h3 { font-size: 22px; font-weight: 800; font-variation-settings: "wdth" 115; }
+p { margin: 0; }
+.lede { font-size: clamp(17px, 1.5vw, 19px); color: var(--ink-2); max-width: 60ch; }
+.hl { background: var(--yellow); color: #0D0D12; padding: 0 .15em; }
+
+/* ---------- nav ---------- */
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 9; background: var(--bg); border-bottom: var(--b); }
+.nav .wrap { display: flex; align-items: stretch; justify-content: space-between; gap: 16px; }
+.mark { display: flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--f-display); font-weight: 900; font-variation-settings: "wdth" 125; font-size: 20px; padding-block: 14px; }
+.mark i { width: 22px; height: 22px; background: var(--magenta); display: block; box-shadow: 3px 3px 0 var(--ink); }
+.nav ul { display: flex; list-style: none; margin: 0; padding: 0; }
+.nav ul a { display: flex; align-items: center; height: 100%; text-decoration: none; font-weight: 600; font-size: 14px; padding: 0 16px; border-left: var(--b); min-height: 44px; }
+.nav ul a:hover { background: var(--yellow); color: #0D0D12; }
+.nav ul li:last-child a { background: var(--ink); color: var(--bg); border-right: var(--b); }
+.nav ul li:last-child a:hover { background: var(--magenta); color: var(--on-magenta); }
+@media (max-width: 720px) { .nav ul li:not(:last-child) { display: none; } }
+
+/* ---------- buttons ---------- */
+.btn { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; text-decoration: none; padding: 14px 22px; border: var(--b); background: var(--sheet); color: var(--ink); box-shadow: 4px 4px 0 var(--hard); cursor: pointer; transition: transform .12s ease, box-shadow .12s ease; min-height: 48px; }
+.btn:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--hard); }
+.btn:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--hard); }
+.btn.primary { background: var(--magenta); color: var(--on-magenta); }
+.btn svg { width: 18px; height: 18px; }
+
+/* ---------- hero ---------- */
+.hero { padding-block: clamp(36px, 6vw, 72px) 0; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 64px); align-items: center; }
+.hero h1 { font-size: clamp(52px, 7.2vw, 112px); font-weight: 900; font-variation-settings: "wdth" 118; letter-spacing: -.035em; line-height: .86; text-transform: uppercase; margin-block: 18px 22px; }
+.hero h1 span { display: block; }
+.hero h1 .ds { color: var(--magenta); -webkit-text-stroke: 0; }
+.hero h1 .out { color: transparent; -webkit-text-stroke: 2px var(--ink); }
+
+/* teks raksasa yang bergeser mengikuti scroll */
+.bigmq { overflow: hidden; border-block: var(--b); background: var(--bg); padding-block: clamp(10px, 1.6vw, 20px); }
+.bigmq-track { display: flex; align-items: center; gap: .35em; white-space: nowrap; width: max-content; font-family: var(--f-display); font-weight: 900; font-variation-settings: "wdth" 125; font-size: clamp(64px, 12vw, 190px); line-height: .9; text-transform: uppercase; will-change: transform; }
+.bigmq-track .o { color: transparent; -webkit-text-stroke: 2px var(--ink); }
+.bigmq-track .m { color: var(--magenta); }
+.bigmq-track .sq { width: .32em; height: .32em; background: var(--yellow); border: 2px solid var(--ink); flex: none; transform: rotate(45deg); }
+
+/* motion graphics (Adobe Stock) */
+.motion { padding-top: 0; }
+.anims { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 18px; }
+.anims .work { margin: 0; }
+.m-anim { position: relative; background: #0b0b10; border: var(--b); box-shadow: var(--shadow); }
+.m-anim img { width: 100%; height: auto; }
+.m-anim .pbar { position: absolute; left: 0; right: 0; bottom: 0; display: flex; align-items: center; gap: 8px; padding: 18px 10px 9px; background: linear-gradient(transparent, rgba(0,0,0,.7)); color: #fff; }
+.m-anim .pbar i { flex: none; width: 0; height: 0; border-left: 9px solid #fff; border-block: 6px solid transparent; }
+.m-anim .pbar span { flex: 1; height: 3px; background: rgba(255,255,255,.35); position: relative; overflow: hidden; }
+.m-anim .pbar span::after { content: ""; position: absolute; inset: 0; background: var(--magenta); transform-origin: left; animation: prog 6s linear infinite; }
+.m-anim .loop { position: absolute; top: 8px; left: 8px; font: 600 10px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; background: #fff; color: #0D0D12; padding: 4px 6px; border: 1.5px solid #0D0D12; }
+@keyframes prog { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (max-width: 1000px) { .anims { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .anims { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; } }
+
+/* kursor */
+.cur { position: fixed; left: 0; top: 0; z-index: 30; pointer-events: none; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%; background: var(--magenta); display: grid; place-items: center; color: var(--on-magenta); font: 800 13px/1 var(--f-display); font-variation-settings: "wdth" 120; letter-spacing: .04em; transition: width .2s cubic-bezier(.2,.8,.2,1), height .2s cubic-bezier(.2,.8,.2,1), margin .2s cubic-bezier(.2,.8,.2,1); }
+.cur span { opacity: 0; transition: opacity .15s; }
+.cur.on { width: 86px; height: 86px; margin: -43px 0 0 -43px; border: 2px solid #0D0D12; }
+.cur.on span { opacity: 1; }
+@media (pointer: coarse) { .cur { display: none; } }
+.lift { transform-style: preserve-3d; will-change: transform; }
+.kicker { font-family: var(--f-mono); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.kicker span { color: var(--magenta); }
+
+/* latar hero: dinding karya sold dalam perspektif 3D yang terus mengalir */
+.hero { position: relative; overflow: hidden; isolation: isolate; }
+.hero > .wrap { position: relative; z-index: 2; }
+.mosaic { position: absolute; inset: 0; z-index: 0; pointer-events: none; perspective: 1600px; }
+.plane { position: absolute; left: 38%; top: -30%; display: flex; gap: 18px; transform: rotateX(48deg) rotateZ(-24deg); transform-origin: 50% 0; }
+.mcol { display: flex; flex-direction: column; gap: 18px; width: 170px; animation: up 70s linear infinite; }
+.mcol:nth-child(even) { animation-name: down; animation-duration: 85s; }
+.mcol img { width: 100%; height: auto; border: 2px solid #0D0D12; box-shadow: 6px 6px 0 var(--magenta); }
+@keyframes up { from { transform: translateY(0); } to { transform: translateY(-50%); } }
+@keyframes down { from { transform: translateY(-50%); } to { transform: translateY(0); } }
+.hero::after { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+  background:
+    linear-gradient(90deg, var(--bg) 0%, var(--bg) 30%, color-mix(in srgb, var(--bg) 82%, transparent) 50%, color-mix(in srgb, var(--bg) 45%, transparent) 75%, color-mix(in srgb, var(--bg) 30%, transparent) 100%),
+    linear-gradient(0deg, var(--bg) 0%, transparent 22%); }
+@media (max-width: 900px) { .hero::after { background: color-mix(in srgb, var(--bg) 80%, transparent); } .plane { left: -10%; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
+
+/* hero scene: poster di dinding + ponsel profil IG + ponsel story */
+.scene { position: relative; aspect-ratio: 1 / .82; width: 100%; max-width: 620px; justify-self: center; }
+.scene .poster { position: absolute; left: 0; top: 2%; width: 36%; transform: rotate(-3deg); }
+.scene .phone-a { position: absolute; left: 39%; top: 0; width: 33%; z-index: 2; }
+.scene .phone-b { position: absolute; left: 75%; top: 16%; width: 25%; z-index: 3; transform: rotate(3deg); }
+/* cap stempel "SOLD" */
+.scene .stamp { position: absolute; left: 3%; top: 63%; z-index: 4; color: var(--magenta); border: 4px solid currentColor; outline: 2px solid currentColor; outline-offset: 4px; padding: 8px 18px 10px; transform: rotate(-10deg); text-align: center; background: color-mix(in srgb, var(--bg) 82%, transparent); line-height: 1; }
+.scene .stamp b { display: block; font-family: var(--f-display); font-weight: 900; font-variation-settings: "wdth" 125; font-size: clamp(34px, 4.6vw, 56px); letter-spacing: .04em; }
+.scene .stamp span { display: block; margin-top: 4px; font-family: var(--f-mono); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .12em; }
+.scene > * { animation: rise .6s cubic-bezier(.2,.8,.2,1) both; }
+.scene > :nth-child(2) { animation-delay: .08s; } .scene > :nth-child(3) { animation-delay: .16s; } .scene > :nth-child(4) { animation-delay: .24s; }
+@keyframes rise { from { opacity: .001; translate: 0 18px; } to { opacity: 1; translate: 0 0; } }
+
+/* stats */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border: var(--b); background: var(--sheet); margin-top: clamp(40px, 6vw, 64px); box-shadow: var(--shadow); }
+.stat { padding: 18px 20px 20px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+.stat + .stat { border-left: var(--b); }
+.stat b { font-family: var(--f-display); font-size: clamp(34px, 4vw, 54px); font-weight: 900; font-variation-settings: "wdth" 115; line-height: 1; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.stat b em { font-style: normal; color: var(--magenta); }
+.stat > span { font-size: 14px; color: var(--ink-2); line-height: 1.4; }
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: minmax(0, 1fr); }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stat:nth-child(3) { border-left: 0; }
+  .stat:nth-child(n+3) { border-top: var(--b); }
+}
+
+/* ---------- sold wall ---------- */
+.wall { margin-top: clamp(56px, 8vw, 96px); background: var(--magenta); color: var(--on-magenta); border-block: var(--b); padding-block: 28px 32px; overflow: hidden; }
+.wall-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 10px 32px; margin-bottom: 22px; }
+.wall-head h2 { font-size: clamp(28px, 4vw, 48px); }
+.wall-head .count { background: var(--yellow); color: #0D0D12; padding: 0 .12em; }
+.wall-head p { max-width: 44ch; font-weight: 500; }
+.rows { display: grid; gap: 14px; }
+.wall-row { display: flex; gap: 14px; width: max-content; animation: slide 110s linear infinite; }
+.wall-row.rev { animation-direction: reverse; animation-duration: 130s; }
+.rows:hover .wall-row { animation-play-state: paused; }
+.wall-row img { height: clamp(120px, 14vw, 170px); width: auto; border: 2px solid #0D0D12; box-shadow: 4px 4px 0 #0D0D12; background: #fff; flex: none; }
+@keyframes slide { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .rows { overflow-x: auto; } }
+
+/* load more */
+.more { display: flex; justify-content: center; margin: 6px 0 36px; }
+
+/* ---------- section head ---------- */
+section.block { padding-block: clamp(64px, 9vw, 112px); }
+.head { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 20px 48px; align-items: end; margin-bottom: clamp(28px, 4vw, 48px); padding-bottom: 24px; border-bottom: var(--b); }
+.head > div { display: grid; gap: 14px; justify-items: start; }
+@media (max-width: 900px) { .head { grid-template-columns: minmax(0, 1fr); } }
+
+/* =========================================================
+   MOCKUPS
+   ========================================================= */
+.work { display: block; width: 100%; padding: 0; border: 0; background: none; text-align: left; cursor: zoom-in; }
+.work:hover .lift, .work:focus-visible .lift { transform: translate(-3px, -3px); }
+.lift { transition: transform .15s ease; }
+
+/* IG post */
+.m-post { background: #fff; color: #111; border: var(--b); box-shadow: var(--shadow); }
+.m-post .bar { display: flex; align-items: center; gap: 10px; padding: 9px 12px; }
+.m-post .av { width: 30px; height: 30px; border-radius: 50%; background: var(--magenta); border: 2px solid #fff; outline: 2px solid #E6007E; display: grid; place-items: center; color: #fff; font: 800 11px/1 var(--f-display); flex: none; }
+.m-post .who { display: grid; line-height: 1.2; min-width: 0; }
+.m-post .who b { font-size: 13px; font-weight: 700; }
+.m-post .who span { font-size: 11px; color: #6b6b75; }
+.m-post .dots { margin-left: auto; letter-spacing: 2px; font-weight: 700; color: #111; }
+.m-post .acts { display: flex; gap: 14px; padding: 10px 12px 4px; }
+.m-post .acts svg { width: 22px; height: 22px; fill: none; stroke: #111; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+.m-post .acts svg.save { margin-left: auto; }
+.m-post .acts svg.liked { fill: #ED1E4F; stroke: #ED1E4F; }
+.m-post .cap { padding: 2px 12px 12px; font-size: 13px; line-height: 1.4; }
+.m-post .cap b { font-weight: 700; }
+
+/* phone */
+.m-phone { background: #0b0b10; border-radius: 30px; padding: 8px; border: 2px solid #0b0b10; box-shadow: 0 0 0 2px #3a3b44 inset, 8px 10px 0 var(--hard); position: relative; }
+.m-phone .scr { position: relative; border-radius: 23px; overflow: hidden; background: #000; aspect-ratio: 9 / 16; }
+.m-phone .scr > img { width: 100%; height: 100%; object-fit: contain; background: #000; }
+.m-phone::before { content: ""; position: absolute; top: 15px; left: 50%; width: 26%; height: 9px; border-radius: 9px; background: #0b0b10; transform: translateX(-50%); z-index: 3; }
+.m-phone .story-top { position: absolute; inset: 0 0 auto; padding: 22px 10px 0; z-index: 2; display: grid; gap: 7px; background: linear-gradient(rgba(0,0,0,.45), transparent); padding-bottom: 18px; }
+.m-phone .prog { display: flex; gap: 3px; }
+.m-phone .prog i { flex: 1; height: 2px; background: rgba(255,255,255,.45); border-radius: 2px; }
+.m-phone .prog i:first-child { background: #fff; }
+.m-phone .sbar { display: flex; align-items: center; gap: 6px; color: #fff; font-size: 10px; font-weight: 700; }
+.m-phone .sbar i { width: 18px; height: 18px; border-radius: 50%; background: var(--magenta); border: 1.5px solid #fff; }
+.m-phone .sbar span { opacity: .75; font-weight: 500; }
+
+/* IG profile screen (hero) */
+.m-phone .profile { position: absolute; inset: 0; background: #fff; color: #111; padding: 26px 8px 0; display: grid; grid-template-rows: auto auto 1fr; gap: 8px; font-size: 9px; }
+.profile .ph { display: flex; align-items: center; gap: 8px; padding-inline: 4px; }
+.profile .ph .av { width: 36px; height: 36px; border-radius: 50%; background: var(--magenta); border: 2px solid #fff; outline: 2px solid #E6007E; flex: none; display: grid; place-items: center; color: #fff; font: 900 11px/1 var(--f-display); }
+.profile .ph .st { display: flex; justify-content: space-around; flex: 1; text-align: center; line-height: 1.2; }
+.profile .ph .st b { display: block; font-size: 11px; }
+.profile .bio { padding-inline: 4px; line-height: 1.3; }
+.profile .bio b { font-size: 10px; }
+.profile .g { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; align-content: start; margin-inline: -8px; }
+.profile .g img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+
+/* poster on wall */
+.m-poster { background: var(--wall); border: var(--b); padding: 9% 10% 11%; position: relative; box-shadow: var(--shadow); }
+.m-poster .frame { background: #111; padding: 2.5%; box-shadow: 0 14px 22px rgba(0,0,0,.28), 0 3px 6px rgba(0,0,0,.2); position: relative; }
+.m-poster .frame > div { background: none; padding: 0; }
+.m-poster .frame img { width: 100%; }
+.m-poster.tape .frame { background: none; padding: 0; box-shadow: 0 12px 20px rgba(0,0,0,.25); }
+.m-poster.tape .frame > div { padding: 0; }
+.m-poster.tape .frame::before, .m-poster.tape .frame::after { content: ""; position: absolute; top: -10px; width: 30%; height: 22px; background: rgba(255,229,0,.78); border: 1px solid rgba(0,0,0,.08); z-index: 1; }
+.m-poster.tape .frame::before { left: -6%; transform: rotate(-12deg); }
+.m-poster.tape .frame::after { right: -6%; transform: rotate(10deg); }
+
+/* browser */
+.m-browser { background: #fff; border: var(--b); box-shadow: var(--shadow); }
+.m-browser .tb { display: flex; align-items: center; gap: 6px; padding: 8px 10px; border-bottom: 2px solid #0D0D12; background: #F3F3F5; }
+.m-browser .tb i { width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid #0D0D12; }
+.m-browser .tb i:nth-child(1) { background: #FF5F57; } .m-browser .tb i:nth-child(2) { background: #FEBC2E; } .m-browser .tb i:nth-child(3) { background: #28C840; }
+.m-browser .tb span { margin-left: 8px; flex: 1; background: #fff; border: 1.5px solid #0D0D12; font: 11px/1 var(--f-mono); color: #555; padding: 5px 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* plain sheet (sudah berupa mockup) */
+.m-sheet { background: #fff; border: var(--b); box-shadow: var(--shadow); }
+.m-sheet.dark { background: #0b0b10; }
+.m-sheet.pad { padding: 9% 8%; }
+
+/* caption under mockups */
+.cap-row { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding-top: 12px; }
+.cap-row b { font-weight: 700; font-size: 15px; min-width: 0; }
+.cap-row .mono { color: var(--ink-2); white-space: nowrap; }
+
+/* ---------- template board ---------- */
+.chips { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px; }
+.chip { font: 600 14px/1 var(--f-body); padding: 12px 16px; min-height: 44px; border: var(--b); background: var(--sheet); color: var(--ink); cursor: pointer; transition: transform .12s, box-shadow .12s; }
+.chip:hover { transform: translate(-2px, -2px); box-shadow: 3px 3px 0 var(--hard); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.chip .n { font-family: var(--f-mono); font-size: 11px; opacity: .65; margin-left: 6px; }
+.board { columns: 4 250px; column-gap: 28px; }
+.board .work, .duo .work { break-inside: avoid; margin-bottom: 34px; }
+.board .m-phone { max-width: 78%; margin-inline: auto; }
+.work[hidden] { display: none !important; }
+.note { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; border: var(--b); background: var(--yellow); color: #0D0D12; padding: 14px 18px; font-weight: 500; box-shadow: var(--shadow); }
+
+/* ---------- brand kit sets ---------- */
+.kits { display: grid; gap: clamp(32px, 4vw, 48px); }
+.kit { background: var(--sheet); border: var(--b); box-shadow: var(--shadow); display: grid; }
+.kit-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px 32px; padding: clamp(18px, 2.4vw, 28px); border-bottom: var(--b); }
+.kit-head .t { display: grid; gap: 8px; min-width: 0; justify-items: start; }
+.kit-head h3 { font-size: clamp(28px, 3.6vw, 44px); font-weight: 900; font-variation-settings: "wdth" 125; text-transform: uppercase; }
+.kit-head p { color: var(--ink-2); max-width: 56ch; font-size: 15px; }
+.swatches { display: flex; border: var(--b); }
+.sw { display: grid; width: 74px; }
+.sw + .sw { border-left: var(--b); }
+.sw i { height: 46px; display: block; border-bottom: var(--b); }
+.sw .mono { font-size: 10px; padding: 5px 6px; background: var(--sheet); }
+.formats { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end; padding: clamp(18px, 2.4vw, 28px); background: var(--wall); }
+.fmt { flex-grow: var(--r); flex-basis: calc(var(--r) * 150px); max-width: calc(var(--r) * 300px); min-width: 0; display: grid; gap: 8px; padding: 0; border: 0; background: none; text-align: left; cursor: zoom-in; }
+.fmt img { width: 100%; height: auto; border: 2px solid #0D0D12; box-shadow: 4px 4px 0 #0D0D12; transition: transform .15s ease; }
+.fmt:hover img { transform: translate(-3px, -3px); }
+.fmt span { font-family: var(--f-mono); font-size: 11px; color: var(--ink-2); line-height: 1.35; }
+.fmt span b { display: block; color: var(--ink); font-family: var(--f-body); font-size: 13px; font-weight: 700; }
+@media (max-width: 640px) { .fmt { flex-basis: calc(var(--r) * 110px); } }
+
+/* ---------- case study ---------- */
+.case { background: var(--sheet); border-block: var(--b); }
+.case-intro { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 40px; margin-bottom: 44px; }
+.case-text { display: grid; gap: 16px; }
+.case-text ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 0; border-top: var(--b); }
+.case-text li { padding: 10px 0 10px 28px; border-bottom: 1px solid var(--rule); position: relative; color: var(--ink-2); }
+.case-text li::before { content: ""; position: absolute; left: 4px; top: 18px; width: 10px; height: 10px; background: var(--magenta); }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: var(--b); align-self: start; background: var(--yellow); color: #0D0D12; box-shadow: var(--shadow); }
+.facts div { padding: 16px 14px; display: grid; gap: 4px; }
+.facts div + div { border-left: 2px solid #0D0D12; }
+.facts b { font-family: var(--f-display); font-size: clamp(26px, 3vw, 36px); font-weight: 900; font-variation-settings: "wdth" 115; line-height: 1; }
+.facts span { font-size: 13px; }
+@media (max-width: 900px) { .case-intro { grid-template-columns: minmax(0, 1fr); } }
+.bento { columns: 3 280px; column-gap: 28px; }
+.bento .work { break-inside: avoid; margin-bottom: 34px; }
+.bento .m-phone { max-width: 70%; margin-inline: auto; }
+
+/* ---------- others ---------- */
+.duo { columns: 3 260px; column-gap: 28px; }
+
+/* ---------- about ---------- */
+.about-grid { display: grid; grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: clamp(32px, 5vw, 72px); align-items: start; }
+.portrait { border: var(--b); box-shadow: 10px 10px 0 var(--magenta); background: var(--sheet); }
+.portrait img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 18%; border-bottom: var(--b); }
+.portrait .id { display: flex; justify-content: space-between; gap: 10px; padding: 10px 12px; font-family: var(--f-mono); font-size: 12px; font-weight: 600; text-transform: uppercase; }
+.about-body { display: grid; gap: 28px; }
+.about-body p.big { font-size: clamp(22px, 2.4vw, 30px); line-height: 1.35; font-weight: 600; max-width: 34ch; }
+.cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 40px; }
+.cols h3 { font: 600 12px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .12em; color: var(--ink-2); margin-bottom: 12px; }
+.services { list-style: none; margin: 0; padding: 0; border-top: var(--b); }
+.services li { display: flex; justify-content: space-between; gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--rule); font-weight: 600; }
+.services li span { color: var(--ink-2); font-weight: 400; font-size: 14px; text-align: right; }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; }
+.tools span { border: var(--b); background: var(--sheet); padding: 6px 10px; font-size: 14px; font-weight: 600; }
+.timeline { list-style: none; margin: 0; padding: 0; border-top: var(--b); }
+.timeline li { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--rule); }
+.timeline .mono { color: var(--ink-2); padding-top: 3px; }
+.timeline b { display: block; }
+.timeline span { color: var(--ink-2); font-size: 14px; }
+@media (max-width: 900px) { .about-grid { grid-template-columns: minmax(0, 1fr); } .portrait { max-width: 340px; } .cols { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 480px) { .timeline li { grid-template-columns: minmax(0, 1fr); gap: 2px; } }
+
+/* ---------- contact ---------- */
+.contact { background: var(--ink); color: var(--bg); border-top: var(--b); }
+.contact .wrap { padding-block: clamp(64px, 9vw, 112px); display: grid; gap: 32px; }
+.contact h2 { font-size: clamp(48px, 9vw, 128px); line-height: .9; }
+.contact h2 em { font-style: normal; color: var(--magenta); }
+.contact .lede { color: inherit; opacity: .8; }
+.contact .tag { background: var(--magenta); color: var(--on-magenta); justify-self: start; }
+.lines { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.line { border: 2px solid currentColor; padding: 18px; display: grid; gap: 10px; min-width: 0; }
+.line .mono { opacity: .7; text-transform: uppercase; letter-spacing: .1em; }
+.line .val { font-size: 19px; font-weight: 700; overflow-wrap: anywhere; user-select: all; }
+.line .row { display: flex; gap: 8px; flex-wrap: wrap; }
+.mini { font: 600 14px/1 var(--f-body); padding: 12px 14px; min-height: 44px; display: inline-flex; align-items: center; border: 2px solid currentColor; background: transparent; color: inherit; cursor: pointer; text-decoration: none; }
+.mini.solid { background: var(--magenta); color: var(--on-magenta); border-color: var(--magenta); }
+.mini:hover { background: var(--yellow); color: #0D0D12; border-color: var(--yellow); }
+@media (max-width: 900px) { .lines { grid-template-columns: minmax(0, 1fr); } }
+footer { background: var(--ink); color: var(--bg); border-top: 1px solid color-mix(in srgb, var(--bg) 25%, transparent); padding-block: 20px; font-size: 13px; }
+footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; opacity: .75; }
+
+/* ---------- lightbox ---------- */
+dialog.lb { border: 0; padding: 0; background: transparent; max-width: min(94vw, 1100px); max-height: 92vh; overflow: visible; color: #fff; }
+dialog.lb::backdrop { background: rgba(8,8,12,.9); }
+dialog.lb img { max-height: 80vh; max-width: 100%; width: auto; margin: 0 auto; background: #fff; border: 2px solid #fff; }
+dialog.lb .bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; padding-top: 12px; }
+dialog.lb .bar p { font-weight: 700; }
+dialog.lb .bar .mono { opacity: .7; display: block; font-weight: 400; }
+dialog.lb .ctl { display: flex; gap: 8px; }
+dialog.lb button { font: 700 14px/1 var(--f-body); background: #111; color: #fff; border: 2px solid #fff; padding: 12px 16px; min-height: 44px; cursor: pointer; }
+dialog.lb button:hover { background: #E6007E; }
+.toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--yellow); color: #0D0D12; border: 2px solid #0D0D12; box-shadow: 4px 4px 0 #0D0D12; padding: 10px 16px; font-size: 14px; font-weight: 700; z-index: 20; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-9.3-8.6C1.2 8.6 3 5 6.4 5c2 0 3.3 1.1 4.1 2.4h3C14.3 6.1 15.6 5 17.6 5 21 5 22.8 8.6 21.3 11.4 19 15.6 12 20 12 20z"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20.5 11.5a8.5 8.5 0 1 1-3.6-6.9A8.4 8.4 0 0 1 20.5 11.5z M20.5 20.5l-2.6-2.8"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="M21.5 3 10 14.3M21.5 3l-7 18-4.5-6.7L3 9.9z"/></symbol>
+  <symbol id="i-save" viewBox="0 0 24 24"><path d="M19 21 12 16l-7 5V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square"/></symbol>
+</svg>
+
+<nav class="nav" aria-label="Navigasi utama">
+  <div class="wrap">
+    <a class="mark" href="#top"><i aria-hidden="true"></i>SRDS</a>
+    <ul>
+      <li><a href="#brand-kit">Brand Kit</a></li>
+      <li><a href="#template">Template</a></li>
+      <li><a href="#motion">Motion</a></li>
+      <li><a href="#studi-kasus">Studi Kasus</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#kontak">Hubungi Saya</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="mosaic" aria-hidden="true"><div class="plane" id="plane"></div></div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="kicker">Desainer Grafis <span>/</span> Kontributor VistaCreate &amp; Adobe Stock <span>/</span> Ciamis, ID</p>
+        <h1><span>Saeful</span><span class="out">Rizki</span><span class="ds">DS.</span></h1>
+        <p class="lede">Desainer grafis dari Ciamis, Jawa Barat. Saya membuat template media sosial, poster, identitas brand, dan website. <span class="hl">200+ template saya sudah terjual</span> dan dipakai orang dari berbagai negara lewat VistaCreate.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#brand-kit">Lihat Karya <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn" href="#kontak">Ajak Kerja Sama</a>
+        </div>
+      </div>
+      <div class="scene" aria-label="Cuplikan karya dalam mockup">
+        <div class="m-poster poster" style="box-shadow:none;border:0;background:none;padding:0">
+          <div class="frame"><div><img src="img/vc-000.jpg" width="540" height="720" alt="Poster The Gift of Self-Care dalam bingkai"></div></div>
+        </div>
+        <div class="m-phone phone-a">
+          <div class="scr">
+            <div class="profile">
+              <div class="ph"><span class="av">SR</span><div class="st"><div><b>200+</b>terjual</div><div><b>3</b>set</div><div><b>88</b>karya</div></div></div>
+              <div class="bio"><b>Saeful Rizki DS</b><br>Desainer grafis · template creator</div>
+              <div class="g">
+                <img src="img/vc-128.jpg" alt=""><img src="img/vc-047.jpg" alt=""><img src="img/vc-003.jpg" alt="">
+                <img src="img/vc-062.jpg" alt=""><img src="img/vc-025.jpg" alt=""><img src="img/vc-127.jpg" alt="">
+                <img src="img/vc-014.jpg" alt=""><img src="img/vc-046.jpg" alt=""><img src="img/vc-059.jpg" alt="">
+                <img src="img/vc-051.jpg" alt=""><img src="img/vc-131.jpg" alt=""><img src="img/vc-017.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="m-phone phone-b">
+          <div class="scr">
+            <img src="img/vc-117.jpg" width="405" height="720" alt="Template Instagram Story New Collection">
+            <div class="story-top"><div class="prog"><i></i><i></i><i></i></div><div class="sbar"><i></i>srds <span>2 j</span></div></div>
+          </div>
+        </div>
+        <div class="stamp" aria-hidden="true"><b>SOLD</b><span>200+ template</span></div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b><span class="num" data-to="200">200</span><em>+</em></b><span>template terjual di marketplace VistaCreate</span></div>
+      <div class="stat"><b><span class="num" data-to="4">4</span></b><span>website perusahaan dirilis dalam 4 bulan</span></div>
+      <div class="stat"><b><em>+</em><span class="num" data-to="130">130</span>%</b><span>pertumbuhan followers Instagram klien</span></div>
+      <div class="stat"><b><span class="num" data-to="3">3</span><em>+</em></b><span>tahun berkarya di desain &amp; multimedia</span></div>
+    </div>
+  </div>
+
+</header>
+
+<section class="wall" aria-labelledby="wall-h">
+  <div class="wrap wall-head">
+    <h2 id="wall-h"><span class="count">133</span> desain di tab Sold.</h2>
+    <p>Semua karya yang berjalan di bawah ini sudah dibeli di VistaCreate. Arahkan kursor untuk menjeda.</p>
+  </div>
+  <div class="rows" id="wall"></div>
+</section>
+
+<main>
+<section class="block" id="brand-kit">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="tag">Brand Kit Template</span><h2>Satu gaya, semua ukuran</h2></div>
+      <p class="lede">Tiga set template yang saya rancang sebagai satu sistem visual. Warna, tipografi, dan komposisinya konsisten, lalu disesuaikan ke tiap format: poster, story, feed, sampai cover event. Semua ukuran di setiap set sudah terjual.</p>
+    </div>
+    <div class="kits" id="kits"></div>
+  </div>
+</section>
+
+<section class="block" id="template" style="padding-top:0">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="tag">Template Marketplace</span><h2>Laku di pasar global</h2></div>
+      <p class="lede">70 pilihan dari 200+ template yang terjual di VistaCreate. Setiap desain lolos kurasi tim VistaCreate, lalu dibeli dan diedit ulang pengguna dari berbagai negara. Tiap karya ditampilkan di mockup sesuai formatnya.</p>
+    </div>
+    <div class="chips" role="group" aria-label="Filter kategori" id="chips"></div>
+    <div class="board" id="board"></div>
+    <div class="more"><button class="btn" id="more" type="button">Tampilkan lebih banyak</button></div>
+    <div class="note"><strong>Status: Sold.</strong> Semua karya di bagian ini sudah terjual sebagai template di VistaCreate.</div>
+  </div>
+</section>
+
+<section class="block motion" id="motion">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="tag">Adobe Stock</span><h2>Ilustrasi yang bergerak</h2></div>
+      <div style="display:grid;gap:18px;justify-items:start">
+        <p class="lede">Selain template, saya juga kontributor motion graphic di Adobe Stock. Animasi loop vertikal siap pakai untuk Reels dan Story: Ramadan, Imlek, Natal, Valentine, sampai suasana musim dingin. Ini sebagian kecilnya.</p>
+        <a class="btn" href="https://stock.adobe.com/ca/contributor/212251900/Saeful" target="_blank" rel="noopener">Lihat semua di Adobe Stock <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="anims" id="anims"></div>
+  </div>
+</section>
+
+<div class="bigmq" aria-hidden="true"><div class="bigmq-track" data-dir="1">
+  <span>Template</span><b class="sq"></b><span class="o">Poster</span><b class="sq"></b><span class="m">Brand Kit</span><b class="sq"></b><span>Feed IG</span><b class="sq"></b><span class="o">Website</span><b class="sq"></b><span class="m">Menu</span><b class="sq"></b><span>Undangan</span><b class="sq"></b><span class="o">Story</span><b class="sq"></b><span>Template</span><b class="sq"></b><span class="o">Poster</span><b class="sq"></b><span class="m">Brand Kit</span>
+</div></div>
+
+<section class="block case" id="studi-kasus">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="tag">Studi Kasus</span><h2>CV. FTB Family Trans</h2></div>
+      <p class="lede">Perusahaan travel di Priangan Timur dengan beberapa merek layanan. Saya memegang identitas visual, website, dan konten media sosialnya selama hampir satu tahun.</p>
+    </div>
+    <div class="case-intro">
+      <div class="case-text">
+        <p>Tantangannya: empat merek travel (FTB Family Trans, Butuh Travel, Travel Priangan Timur, dan Best Moment Travel) harus tampil beda tapi tetap terasa satu keluarga, dan semuanya perlu bisa dipesan lewat website.</p>
+        <ul>
+          <li>Merancang logo, kop surat, kartu nama, dan amplop untuk Travel Priangan Timur dan Butuh Travel</li>
+          <li>Mendesain dan membangun 4 website dengan WordPress &amp; Elementor, dari konsep UI sampai online</li>
+          <li>Membuat konten feed dan kampanye musiman seperti Mudik Asik dan Promo Mudik</li>
+          <li>Menulis 300+ artikel SEO yang membawa banyak kata kunci ke halaman pertama Google</li>
+        </ul>
+      </div>
+      <div class="facts">
+        <div><b>4</b><span>merek &amp; website</span></div>
+        <div><b>300+</b><span>artikel SEO</span></div>
+        <div><b>2.300+</b><span>followers IG, naik dari 1.000</span></div>
+      </div>
+    </div>
+    <div class="bento" id="case"></div>
+  </div>
+</section>
+
+<section class="block" id="lainnya">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="tag">Proyek Klien &amp; Personal</span><h2>Poster, konten, merchandise</h2></div>
+      <p class="lede">Desain untuk UMKM, komunitas, dan brand lokal: promo produk, konten rental kostum, acara Ramadan, sampai kaos.</p>
+    </div>
+    <div class="duo" id="others"></div>
+  </div>
+</section>
+
+<section class="block" id="tentang" style="padding-top:0">
+  <div class="wrap about-grid">
+    <figure class="portrait" style="margin:0">
+      <img src="img/me.jpg" width="978" height="1254" alt="Foto Saeful Rizki DS" loading="lazy">
+      <figcaption class="id"><span>Saeful Rizki DS</span><span>Ciamis, Jabar</span></figcaption>
+    </figure>
+    <div class="about-body">
+      <span class="tag" style="justify-self:start">Tentang Saya</span>
+      <p class="big">Saya terbiasa mendesain untuk <span class="hl">pasar</span>: template harus menarik di detik pertama, gampang diedit pembeli, dan tetap rapi di ukuran apa pun.</p>
+      <p class="lede">Lulusan Multimedia SMK Al Ihsan Pamarican dan peserta pelatihan Desain Komunikasi Visual (Kartu Prakerja, 2023). Selain desain grafis, saya juga membangun website WordPress, mengelola iklan Google &amp; Meta, dan memproduksi video dengan bantuan AI.</p>
+      <div class="cols">
+        <div>
+          <h3>Yang bisa saya kerjakan</h3>
+          <ul class="services">
+            <li>Template media sosial <span>IG, FB, Story</span></li>
+            <li>Poster &amp; flyer <span>cetak &amp; digital</span></li>
+            <li>Identitas brand <span>logo, stationery</span></li>
+            <li>Desain website <span>WordPress, Figma</span></li>
+            <li>Menu &amp; undangan <span>siap cetak</span></li>
+            <li>Konten video <span>Reels, Shorts, AI</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <div class="tools"><span>Photoshop</span><span>CorelDRAW</span><span>Figma</span><span>Canva</span><span>VistaCreate</span><span>CapCut</span><span>Alight Motion</span><span>WordPress</span><span>Elementor</span></div>
+          <h3 style="margin-top:28px">Perjalanan</h3>
+          <ol class="timeline">
+            <li><span class="mono">2023 – kini</span><div><b>Desainer template &amp; kreator konten</b><span>Freelance · kontributor VistaCreate, Adobe Stock &amp; Shutterstock</span></div></li>
+            <li><span class="mono">2022 – 2023</span><div><b>Multimedia &amp; Digital Marketing</b><span>CV. FTB Family Trans</span></div></li>
+            <li><span class="mono">2021</span><div><b>Staf Desain Grafis (PKL)</b><span>PT. Satu Visi Indocreative</span></div></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<div class="bigmq" aria-hidden="true"><div class="bigmq-track" data-dir="-1">
+  <span class="m">Sold</span><b class="sq"></b><span class="o">200+ Template</span><b class="sq"></b><span>Ciamis</span><b class="sq"></b><span class="o">Remote</span><b class="sq"></b><span class="m">Sold</span><b class="sq"></b><span>200+ Template</span><b class="sq"></b><span class="o">Ciamis</span><b class="sq"></b><span>Remote</span><b class="sq"></b><span class="m">Sold</span>
+</div></div>
+
+<section class="contact" id="kontak">
+  <div class="wrap">
+    <span class="tag">Kontak</span>
+    <h2>Punya proyek? <em>Ayo ngobrol.</em></h2>
+    <p class="lede">Untuk template, konten promo, identitas brand, atau website. Saya biasanya membalas dalam satu hari.</p>
+    <div class="lines">
+      <div class="line"><span class="mono">Email</span><span class="val" id="v-email">fulzzz.ch@gmail.com</span><div class="row"><button class="mini solid" data-copy="v-email">Salin email</button></div></div>
+      <div class="line"><span class="mono">WhatsApp</span><span class="val" id="v-wa">+62 813-9535-8748</span><div class="row"><button class="mini solid" data-copy="v-wa">Salin nomor</button><a class="mini" href="https://wa.me/6281395358748" target="_blank" rel="noopener">Buka WhatsApp</a></div></div>
+      <div class="line"><span class="mono">Lokasi</span><span class="val">Ciamis, Jawa Barat</span><div class="row"><span class="mini" style="cursor:default">Bisa kerja remote</span></div></div>
+    </div>
+  </div>
+</section>
+<footer><div class="wrap"><span>© <span id="yr">2026</span> Saeful Rizki DS</span><span class="mono">Desain grafis · Template · Identitas brand · Website</span></div></footer>
+
+<dialog class="lb" id="lb" aria-label="Pratinjau karya">
+  <img id="lb-img" alt="">
+  <div class="bar">
+    <p id="lb-cap"></p>
+    <div class="ctl"><button id="lb-prev" aria-label="Karya sebelumnya">←</button><button id="lb-next" aria-label="Karya berikutnya">→</button><button id="lb-close">Tutup</button></div>
+  </div>
+</dialog>
+
+<script>
+(function () {
+  const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+  const F = {
+    ig: ['IG Post','1080×1080'], igv: ['IG Vertikal','1080×1350'], st: ['IG Story','1080×1920'], fb: ['FB Post','940×788'],
+    po: ['Poster','18×24 in'], inv: ['Undangan','4.6×7.2 in'], menu: ['Menu','A4'], ban: ['Banner','Web'],
+    yt: ['YouTube Thumbnail','1280×720'], tw: ['Twitch Banner','1200×480']
+  };
+  const MOCK = { ig: 'post', igv: 'post', fb: 'post', st: 'phone', po: 'poster', inv: 'poster', menu: 'tape', ban: 'browser', yt: 'browser', tw: 'browser' };
+  const URLS = { yt: 'youtube.com/watch', tw: 'twitch.tv/channel', ban: 'vistacreate.com/templates' };
+  const icon = (id, cls='') => `<svg class="${cls}" aria-hidden="true"><use href="#i-${id}"/></svg>`;
+
+  // ---- mockup builders ----
+  function mock(kind, src, w, h, alt, opt = {}) {
+    const img = `<img class="w-img" src="${src}" width="${w}" height="${h}" alt="${esc(alt)}" loading="lazy">`;
+    if (kind === 'post') return `<div class="m-post lift">
+        <div class="bar"><span class="av">SR</span><span class="who"><b>${esc(opt.handle || 'srds.template')}</b><span>${esc(opt.sub || 'VistaCreate · Template')}</span></span><span class="dots">···</span></div>
+        ${img}
+        <div class="acts">${icon('heart','liked')}${icon('chat')}${icon('send')}${icon('save','save')}</div>
+        <div class="cap"><b>${esc(opt.handle || 'srds.template')}</b> ${esc(opt.caption || alt)}</div></div>`;
+    if (kind === 'phone') return `<div class="m-phone lift"><div class="scr">${img}${opt.raw ? '' : `<div class="story-top"><div class="prog"><i></i><i></i><i></i></div><div class="sbar"><i></i>srds <span>2 j</span></div></div>`}</div></div>`;
+    if (kind === 'poster' || kind === 'tape') return `<div class="m-poster ${kind === 'tape' ? 'tape' : ''} lift"><div class="frame"><div>${img}</div></div></div>`;
+    if (kind === 'browser') return `<div class="m-browser lift"><div class="tb"><i></i><i></i><i></i><span>${esc(opt.url || 'vistacreate.com/templates')}</span></div>${img}</div>`;
+    return `<div class="m-sheet lift ${opt.cls || ''}">${img}</div>`;
+  }
+  const work = (inner, title, meta, attrs = '') =>
+    `<button class="work" ${attrs} data-cap="${esc(title)}" data-meta="${esc(meta)}">${inner}<div class="cap-row"><b>${esc(title)}</b><span class="mono">${esc(meta.split(' · ')[0])}</span></div></button>`;
+
+  // ---- brand kit sets ----
+  const K = [
+    ['Live Music', 'Konser akustik dengan headline kuning tebal di atas hitam pekat. Teks "MUSIC" raksasa di latar memberi tekstur tanpa mengganggu foto.',
+      ['#111111','#F6C400','#FFFFFF','#6B4E3D'],
+      [['007','po',540,720],['004','st',405,720],['006','igv',576,720],['003','ig',720,720],['005','fb',720,604],['008',['FB Event Cover','1920×1080'],720,405]]],
+    ['Music Festival', 'Festival EDM dengan cahaya neon biru-ungu. Judul miring dan aksen bintang menjaga kesan energik di setiap ukuran.',
+      ['#0A1248','#2B4BEA','#8FE3FF','#FFFFFF'],
+      [['010','po',540,720],['013','st',405,720],['012','igv',576,720],['014','ig',720,720],['011','fb',720,604],['009',['FB Event Cover','1920×1080'],720,405]]],
+    ['Fashion Boutique', 'Butik fashion dengan blok merah-hitam ala editorial majalah dan serif elegan. Set ini juga punya label produk siap cetak.',
+      ['#C4141B','#0E0E0E','#FFFFFF','#5A3A2E'],
+      [['027','po',540,720],['023','st',405,720],['024','igv',576,720],['025','ig',720,720],['026','fb',720,604],['028',['Label','6×4 in'],720,480]]]
+  ];
+  document.getElementById('kits').innerHTML = K.map(([t, d, cols, items]) => `
+    <article class="kit">
+      <div class="kit-head">
+        <div class="t"><span class="tag">Set · ${items.length} format</span><h3>${esc(t)}</h3><p>${esc(d)}</p></div>
+        <div class="swatches" aria-label="Palet warna">${cols.map(c => `<span class="sw"><i style="background:${c}"></i><span class="mono">${c}</span></span>`).join('')}</div>
+      </div>
+      <div class="formats">${items.map(([f, fm, w, h]) => {
+        const [n, s] = Array.isArray(fm) ? fm : F[fm];
+        return `<button class="fmt" style="--r:${(w / h).toFixed(3)}" data-cap="${esc(t)} · ${esc(n)}" data-meta="${esc(n + ' · ' + s)}"><img class="w-img" src="img/vc-${f}.jpg" width="${w}" height="${h}" alt="${esc(t)}, format ${esc(n)}" loading="lazy"><span><b>${esc(n)}</b>${esc(s)}</span></button>`;
+      }).join('')}</div>
+    </article>`).join('');
+
+  // ---- template board ----
+  const C = { event: 'Event & Musik', fashion: 'Fashion & Beauty', food: 'Kuliner', biz: 'Bisnis & Jasa', season: 'Musiman', wed: 'Pernikahan' };
+  const W = [
+    ['000','The Gift of Self-Care','po','fashion',540,720],
+    ['047','Mastering AI Workshop','ig','biz',720,720],
+    ['115','Fashion Inspiration','st','fashion',405,720],
+    ['111','Cookie Menu','menu','food',509,720],
+    ['059','Pulse: Artist Cover','ig','fashion',720,720],
+    ['078','Wedding Day','igv','wed',576,720],
+    ['041','Local Honey','st','food',405,720],
+    ['128','Black Friday','ig','season',720,720],
+    ['083','SEO Services','igv','biz',576,720],
+    ['077','The Wedding Invitation','inv','wed',460,720],
+    ['046','Happy Mother’s Day','ig','season',720,720],
+    ['091','Designer. Creative Studio','ban','biz',720,465],
+    ['061','Powerful Legal Protection','igv','biz',576,720],
+    ['042','Naturally Fresh Milk','po','food',540,720],
+    ['127','Cyber Monday Sale','ig','season',720,720],
+    ['017','Q&A Time','ig','biz',720,720],
+    ['117','New Collection','st','fashion',405,720],
+    ['039','William James Live in Concert','igv','event',576,720],
+    ['120','2025 New Year Party','inv','season',460,720],
+    ['051','App Only Offers','ig','biz',720,720],
+    ['103','Dessert Menu','menu','food',509,720],
+    ['034','We’re Engaged','ig','wed',720,720],
+    ['022','New Post Alert','st','biz',405,720],
+    ['074','Modern Dream Home','ig','biz',720,720],
+    ['062','Feb 14','ig','season',720,720],
+    ['037','Football Highlights','ig','event',720,720],
+    ['101','Student Discount Barbershop','igv','biz',576,720],
+    ['067','Time to Travel','ig','biz',720,720],
+    ['131','Black Friday Sale','ig','season',720,720],
+    ['001','Smooth Skin Starts Here','fb','fashion',720,604],
+    ['132','Pink October','ig','season',720,720],
+    ['029','Let’s Play: Gaming Channel','tw','event',720,288],
+    ['043','Outfit of the Day','st','fashion',405,720],
+    ['019','How We Made $15,000 on IG','ig','biz',720,720],
+    ['110','Cookie Menu Peach','menu','food',509,720],
+    ['035','Player of the Match','igv','event',576,720],
+    ['076','Dream Wedding Package','ig','wed',720,720],
+    ['053','E-Learning Platform','st','biz',405,720],
+    ['002','Self-Care Sale','po','fashion',540,720],
+    ['124','Unboxing Christmas Present','yt','season',720,405],
+    ['045','Home Real Estate','ig','biz',720,720],
+    ['058','Happy Hour Bites','st','food',405,720],
+    ['093','Spring Gifts','igv','season',576,720],
+    ['016','Your Weekly Reset Checklist','fb','biz',720,604],
+    ['073','Wedding Invitation','inv','wed',460,720],
+    ['038','World Cup Tonight','st','event',405,720],
+    ['068','Cleaning Services','ig','biz',720,720],
+    ['096','Learn Web Design Online','igv','biz',576,720],
+    ['112','Bakery Cookie Menu','menu','food',509,720],
+    ['018','Stop Overthinking','st','biz',405,720],
+    ['048','Create Your First Program','yt','biz',720,405],
+    ['129','Black Friday Store','ig','season',720,720],
+    ['075','Wedding Flowers','igv','wed',576,720],
+    ['044','Clothing Deals','st','fashion',405,720],
+    ['087','Happy Easter','po','season',540,720],
+    ['126','Celebrating Thanksgiving','fb','season',720,604],
+    ['060','Law Firm Services','st','biz',405,720],
+    ['036','Player of the Match No. 7','igv','event',576,720],
+    ['108','Special Donor Night','po','biz',514,720],
+    ['113','Cookie Stack Challenge','st','food',405,720],
+    ['084','Ads Mastery Workshop','yt','biz',720,405],
+    ['070','Everyday Kids Fashion','st','fashion',405,720],
+    ['056','Spring Sale','fb','season',720,604],
+    ['063','Dental Care Services','st','biz',405,720],
+    ['121','Happy New Year','st','season',405,720],
+    ['052','Weekend Workshops','st','biz',405,720],
+    ['071','Kids Fashion','st','fashion',405,720],
+    ['092','Podcast: New Episode','st','biz',405,720],
+    ['123','Capture the Holiday Spirit','st','season',405,720],
+    ['021','New Post Alert: Retro','st','biz',405,720]
+  ];
+  const board = document.getElementById('board');
+  board.innerHTML = W.map(([f, t, fm, cat, w, h]) => {
+    const [n, s] = F[fm];
+    return work(mock(MOCK[fm], `img/vc-${f}.jpg`, w, h, t, { caption: `${t} · template ${n} siap edit`, url: URLS[fm] }), t, `${n} · ${s}`, `data-cat="${cat}"`);
+  }).join('');
+
+  // sold wall: semua thumbnail dari tab Sold, dua baris berlawanan arah
+  const ids = Array.from({ length: 134 }, (_, i) => String(i).padStart(3, '0')).filter(x => x !== '095');
+  const half = Math.ceil(ids.length / 2);
+  const rowHTML = (list, rev) => `<div class="wall-row${rev ? ' rev' : ''}">${[...list, ...list].map((x, i) => `<img src="img/t/${x}.jpg" alt="" ${i >= list.length ? 'aria-hidden="true"' : ''}>`).join('')}</div>`;
+  document.getElementById('wall').innerHTML = rowHTML(ids.slice(0, half)) + rowHTML(ids.slice(half), true);
+
+  // latar hero: 8 kolom karya, tiap kolom diduplikasi agar alirannya mulus
+  const shuffled = ids.slice().sort((a, b) => ((+a * 37) % 101) - ((+b * 37) % 101));
+  const COLS = 8, PER = 8;
+  document.getElementById('plane').innerHTML = Array.from({ length: COLS }, (_, c) => {
+    const pick = shuffled.slice(c * PER, c * PER + PER);
+    return `<div class="mcol">${[...pick, ...pick].map(x => `<img src="img/t/${x}.jpg" alt="">`).join('')}</div>`;
+  }).join('');
+
+  // tampilkan bertahap
+  const STEP = 24; let limit = STEP, curCat = 'all';
+  const moreBtn = document.getElementById('more');
+  const apply = () => {
+    let n = 0, total = 0;
+    board.querySelectorAll('.work').forEach(a => {
+      const match = curCat === 'all' || a.dataset.cat === curCat;
+      if (match) total++;
+      a.hidden = !(match && n++ < limit) ;
+    });
+    const left = total - Math.min(limit, total);
+    moreBtn.parentElement.hidden = left <= 0;
+    moreBtn.textContent = `Tampilkan ${Math.min(left, STEP)} karya lagi (${left} tersisa)`;
+  };
+  moreBtn.addEventListener('click', () => { limit += STEP; apply(); });
+  apply();
+
+  const chips = document.getElementById('chips');
+  const counts = W.reduce((a, x) => (a[x[3]] = (a[x[3]] || 0) + 1, a), {});
+  const list = [['all', 'Semua', W.length], ...Object.keys(C).map(k => [k, C[k], counts[k] || 0])];
+  chips.innerHTML = list.map(([k, l, n], i) => `<button class="chip" id="chip-${k}" data-k="${k}" aria-pressed="${i === 0}">${l}<span class="n">${n}</span></button>`).join('');
+  chips.addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b) return;
+    chips.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', c === b));
+    curCat = b.dataset.k; limit = STEP; apply();
+    const k = curCat;
+    try { localStorage.setItem('srds-filter', k); } catch (_) {}
+  });
+  try { const k = localStorage.getItem('srds-filter'); if (k && k !== 'all') document.getElementById('chip-' + k)?.click(); } catch (_) {}
+
+  // ---- motion graphics (Adobe Stock) ----
+  const AN = [
+    ['003','Lotus Mandala'],['041','Festival Lampion Bulan'],['062','Gerbang Emas Imlek'],['042','Buket Mawar'],['064','Snow Globe'],['079','Aurora di Perkemahan'],
+    ['047','Lampion 2027'],['045','Be Mine Valentine'],['058','Angpao & Koin Emas'],['090','Kabin Aurora'],['043','Kado Pink'],['066','Lotus Lantern'],
+    ['088','Lampion Merah'],['092','Cokelat Hangat di Jendela'],['050','Imlek Sale'],['087','Rusa & Aurora'],['051','Jendela Salju'],['083','Bulan Imlek']
+  ];
+  document.getElementById('anims').innerHTML = AN.map(([f, t]) => work(
+    `<div class="m-anim lift"><span class="loop">Loop</span><img class="w-img" src="img/as/${f}.jpg" width="281" height="500" alt="${esc(t)}" loading="lazy"><div class="pbar"><i></i><span></span></div></div>`,
+    t, 'Animasi vertikal · Adobe Stock')).join('');
+
+  // ---- case study ----
+  const CS = [
+    ['sheet','web-multi',1400,1050,'Website mobile empat merek travel','Mockup iPhone · WordPress'],
+    ['sheet','br-priangan',1400,894,'Logo Travel Priangan Timur','Logo · identitas brand',{cls:'pad'}],
+    ['phone','po-mudik',720,1271,'Kampanye Mudik Asik FTB','IG Story · 1080×1920',{raw:1}],
+    ['sheet','br-stationery',1400,976,'Stationery Travel Priangan Timur','Stationery · kop surat, kartu nama'],
+    ['poster','po-pangandaran',990,1400,'Open Trip Pantai Pangandaran','Poster · A4'],
+    ['sheet','br-butuh',768,284,'Logo Butuh Travel','Logo · lettering',{cls:'dark pad'}],
+    ['browser','web-priangan',1000,600,'Website Travel Priangan Timur','Website · desktop & mobile',{url:'travelregulerpriangantimur.com'}],
+    ['phone','po-promomudik',720,1280,'Promo Mudik, gratis parcel','IG Story · 1080×1920',{raw:1}],
+    ['sheet','sm-ftb-feed',1400,1050,'Feed Instagram FTB Family Trans','Feed IG · mockup smartphone'],
+    ['browser','web-bestmoment',1000,600,'Website Best Moment Travel','Website · desktop & mobile',{url:'bestmomenttravel.com'}],
+    ['browser','web-ftb',1022,600,'Website FTB Family Trans','Website · desktop & mobile',{url:'ftbfamilytravel.com'}]
+  ];
+  document.getElementById('case').innerHTML = CS.map(([k, f, w, h, t, m, o]) => work(mock(k, `img/${f}.jpg`, w, h, t, o || {}), t, m)).join('');
+
+  // ---- others ----
+  const O = [
+    ['poster','po-ulicandy',993,1400,'Uli Candy: Buy 1 Get 1','Poster promo · klien UMKM'],
+    ['post','sm-hobin',1080,1080,'Couple Set Yoo Hobin & Gaeul','Konten IG · Manhwarentcos.id',{handle:'manhwarentcos.id',sub:'Rental kostum',caption:'Couple set mulai 100K'}],
+    ['post','po-ramadhan',1080,1350,'Marhaban ya Ramadhan','IG Vertikal · 1080×1350',{caption:'Template ucapan Ramadan 1446 H'}],
+    ['sheet','ap-tshirt',1300,827,'Kaos Black Eye','Desain apparel · mockup kaos'],
+    ['post','po-bukber',1080,1080,'Bukber Angkatan 10','Poster acara · 1080×1080',{sub:'Desain acara',caption:'Buka bersama angkatan 10'}],
+    ['post','sm-haneul',1080,1080,'Couple Set Lookism','Konten IG · Manhwarentcos.id',{handle:'manhwarentcos.id',sub:'Rental kostum',caption:'Jaewon High School uniform 100K'}]
+  ];
+  document.getElementById('others').innerHTML = O.map(([k, f, w, h, t, m, o]) => work(mock(k, `img/${f}.jpg`, w, h, t, o || {}), t, m)).join('');
+
+  // ---- lightbox ----
+  const lb = document.getElementById('lb'), li = document.getElementById('lb-img'), lc = document.getElementById('lb-cap');
+  let group = [], idx = 0;
+  const show = i => {
+    idx = (i + group.length) % group.length;
+    const el = group[idx], img = el.querySelector('.w-img');
+    li.src = img.src; li.alt = img.alt;
+    lc.innerHTML = `${esc(el.dataset.cap)}<span class="mono">${esc(el.dataset.meta)}</span>`;
+  };
+  document.addEventListener('click', e => {
+    const el = e.target.closest('.work, .fmt'); if (!el) return;
+    const scope = el.closest('#board, #others, #case, #anims, .formats');
+    group = [...scope.querySelectorAll(el.classList.contains('fmt') ? '.fmt' : '.work')].filter(x => !x.hidden);
+    show(group.indexOf(el));
+    if (typeof lb.showModal === 'function') lb.showModal(); else lb.setAttribute('open', '');
+  });
+  document.getElementById('lb-close').onclick = () => lb.close();
+  document.getElementById('lb-prev').onclick = () => show(idx - 1);
+  document.getElementById('lb-next').onclick = () => show(idx + 1);
+  lb.addEventListener('click', e => { if (e.target === lb) lb.close(); });
+  lb.addEventListener('keydown', e => { if (e.key === 'ArrowLeft') show(idx - 1); if (e.key === 'ArrowRight') show(idx + 1); });
+
+  // ---- copy ----
+  let tt;
+  const toast = msg => { let t = document.querySelector('.toast'); if (!t) { t = document.createElement('div'); t.className = 'toast'; t.setAttribute('role', 'status'); t.setAttribute('aria-live', 'polite'); document.body.appendChild(t); } t.textContent = msg; t.hidden = false; clearTimeout(tt); tt = setTimeout(() => t.hidden = true, 2200); };
+  document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', () => {
+    const el = document.getElementById(b.dataset.copy), txt = el.textContent.trim();
+    const sel = () => { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); toast('Teks sudah dipilih, tekan Ctrl+C untuk menyalin'); };
+    if (navigator.clipboard) navigator.clipboard.writeText(txt).then(() => toast('Tersalin: ' + txt), sel); else sel();
+  }));
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // logo kembali ke paling atas
+  document.querySelector('.mark').addEventListener('click', e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' }); });
+
+  // angka statistik menghitung naik saat halaman dibuka
+  if (!calm) document.querySelectorAll('.num').forEach(el => {
+    const to = +el.dataset.to, t0 = performance.now(), dur = 1400;
+    const step = now => { const p = Math.min(1, (now - t0) / dur); el.textContent = Math.round(to * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(step); };
+    requestAnimationFrame(step);
+  });
+
+  // teks raksasa bergeser mengikuti scroll
+  const tracks = [...document.querySelectorAll('.bigmq-track')];
+  let ticking = false;
+  const moveTracks = () => {
+    ticking = false;
+    tracks.forEach(t => {
+      const r = t.parentElement.getBoundingClientRect();
+      const p = (innerHeight - r.top) / (innerHeight + r.height);
+      if (p < -0.2 || p > 1.2) return;
+      const span = t.scrollWidth - t.parentElement.clientWidth;
+      const x = t.dataset.dir === '1' ? -span * p : -span * (1 - p);
+      t.style.transform = `translateX(${x.toFixed(1)}px)`;
+    });
+  };
+  if (!calm) { addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(moveTracks); } }, { passive: true }); moveTracks(); }
+
+  // kursor + efek miring 3D pada mockup (hanya perangkat dengan mouse)
+  if (!calm && matchMedia('(pointer: fine)').matches) {
+    const cur = document.createElement('div'); cur.className = 'cur'; cur.innerHTML = '<span>LIHAT</span>'; cur.setAttribute('aria-hidden', 'true'); document.body.appendChild(cur);
+    addEventListener('pointermove', e => {
+      cur.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+      const w = e.target.closest('.work, .fmt');
+      cur.classList.toggle('on', !!w);
+    }, { passive: true });
+    document.addEventListener('pointermove', e => {
+      const w = e.target.closest('.work'); if (!w) return;
+      const l = w.querySelector('.lift'); if (!l) return;
+      const r = l.getBoundingClientRect();
+      const rx = ((e.clientY - r.top) / r.height - .5) * -10, ry = ((e.clientX - r.left) / r.width - .5) * 12;
+      l.style.transform = `perspective(900px) rotateX(${rx.toFixed(2)}deg) rotateY(${ry.toFixed(2)}deg) translate(-3px, -3px)`;
+    }, { passive: true });
+    document.addEventListener('pointerout', e => {
+      const w = e.target.closest('.work'); if (!w || w.contains(e.relatedTarget)) return;
+      const l = w.querySelector('.lift'); if (l) l.style.transform = '';
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
